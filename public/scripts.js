@@ -22,3 +22,4 @@ const agregarElemento = async () => {
 };
 
 btn.addEventListener("click", agregarElemento);
+console.log("Gaspar trabajo aqui");
