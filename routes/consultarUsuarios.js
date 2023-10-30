@@ -3,6 +3,7 @@ const router = express.Router();
 const schemaUsuario = require("../models");
 
 router.get("/", async (req, res) => {
+  console.log("Están accediendo a una consulta...");
   const allUsers = await schemaUsuario.find({});
   res.status(200).send(allUsers);
 });

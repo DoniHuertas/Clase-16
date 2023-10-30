@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crear una cuenta</title>
+  </head>
+  <body>
+    <h1>Bienvenido a Plataforma 5</h1>
+
+    <p>Si aún no tienes una cuenta, puedes crear una aquí.</p>
+    <form>
+      <div>
+        <label for="userName">Nombre de usuario:</label>
+        <input
+          name="userName"
+          id="userName"
+          placeholder="Nombre de usuario"
+          type="text"
+        />
+
+        <label for="pass">Contraseña:</label>
+        <input
+          type="password"
+          name="password"
+          id="pass"
+          placeholder="Contraseña"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="email">Correo:</label>
+        <input type="email" name="email" id="email" placeholder="correo" />
+
+        <label for="age">Edad</label>
+        <input type="number" name="age" id="age" placeholder="Edad" />
+      </div>
+      <button type="submit">Crear Usuario</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="signUp.js"></script>
+  </body>
+</html>
