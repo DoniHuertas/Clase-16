@@ -37,5 +37,4 @@ Usuario
   Cumplida (fullfilled): Sigue el camino esperado
   Rechazada (rejected): Sigue el camino en caso de error
 
-  Pablo estubo aca
  */
